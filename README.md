@@ -1,40 +1,21 @@
 # LaraGigs app
 
-An app for listing Laravel gigs/jobs. This project is from my YouTube "[Laravel From Scratch 2022](https://www.youtube.com/watch?v=MYyJ4PuL4pY)" course.
+An app for listing Laravel gigs/jobs. 
 
 ![Alt text](/public/images/screen.png "LaraGigs")
 
-## Usage
 
-### Database Setup
-This app uses MySQL. To use something different, open up config/Database.php and change the default driver.
+![Screenshot 2023-05-16 at 20 23 45](https://github.com/KazunguDev/laragigs/assets/88532016/c8d9303f-229c-4670-8094-719995a369fe)
 
-To use MySQL, make sure you install it, setup a database and then add your db credentials(database, username and password) to the .env.example file and rename it to .env
 
-### Migrations
-To create all the nessesary tables and columns, run the following
-```
-php artisan migrate
-```
+![Screenshot 2023-05-16 at 20 24 07](https://github.com/KazunguDev/laragigs/assets/88532016/03cc19b6-117f-4245-b3c3-69ff0f00829c)
 
-### Seeding The Database
-To add the dummy listings with a single user, run the following
-```
-php artisan db:seed
-```
+![Screenshot 2023-05-16 at 20 24 17](https://github.com/KazunguDev/laragigs/assets/88532016/36738272-c7dd-415f-b9e9-922688df19dc)
 
-### File Uploading
-When uploading listing files, they go to "storage/app/public". Create a symlink with the following command to make them publicly accessible.
-```
-php artisan storage:link
-```
+![Screenshot 2023-05-16 at 20 24 29](https://github.com/KazunguDev/laragigs/assets/88532016/feadcfc3-f8e7-4d22-81e1-c392adec8ae4)
 
-### Running The App
-Upload the files to your document root, Valet folder or run 
-```
-php artisan serve
-```
+![Screenshot 2023-05-16 at 20 24 55](https://github.com/KazunguDev/laragigs/assets/88532016/ad7a3997-c5f1-434f-a560-5177f0e854e0)
 
-## License
+![Screenshot 2023-05-16 at 20 25 08](https://github.com/KazunguDev/laragigs/assets/88532016/68e37f06-6310-4b4e-9d8d-b304306cab5c)
 
-The LaraGigs app is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Screenshot 2023-05-16 at 20 27 30](https://github.com/KazunguDev/laragigs/assets/88532016/62fb542f-66c5-4065-9642-b7e141b3f4ea)
